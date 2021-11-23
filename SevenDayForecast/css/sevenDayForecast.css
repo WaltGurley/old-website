@@ -26,7 +26,6 @@ html, body {
   /* Standard */
   height: calc(100% - 50px);
 	margin: auto;
-	top: 50px;
   overflow: hidden;
 }
 
