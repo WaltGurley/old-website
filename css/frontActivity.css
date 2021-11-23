@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#mainContainer {
+	background: -webkit-linear-gradient(#fff, #d7eef4, #d7eef4); /* For Safari */
+	background: -o-linear-gradient(#fff, #d7eef4, #d7eef4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fff, #d7eef4, #d7eef4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fff, #d7eef4, #d7eef4); /* Standard syntax */
+	position: absolute;
+	width: 99%;
+  /* Firefox */
+  height: -moz-calc(100% - 50px);
+  /* WebKit */
+  height: -webkit-calc(100% - 50px);
+  /* Opera */
+  height: -o-calc(100% - 50px);
+  /* Standard */
+  height: calc(100% - 50px);
+	margin: auto;
+	left: 0.5%;
+	top: 50px;
+  overflow: hidden;
+}
+
+#navButtons {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
